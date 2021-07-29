@@ -115,7 +115,11 @@ h5 {
 
 section{
     margin-top:.5rem;
-
+    P{
+    margin-top:1rem;
+    margin-bottom:1rem;
+    margin-left:auto;
+    margin-right:auto;
 /* Image & Figure */
 
 
