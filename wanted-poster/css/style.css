@@ -98,7 +98,7 @@ h4 {
     text-shadow:.09375rem .09375rem .09375rem #000;
     font-family:'Alfa Slab One', Garamond, serif;
     text-align:center;
-    bottom-padding:1.125rem;
+    padding-bottom:1.125rem;
     font-weight:normal;
 }
 
@@ -121,13 +121,21 @@ h5 {
 
 /* Section & Paragraph */
 
-section{
+section {
     margin-top:.5rem;
+}
     P{
     margin-top:1rem;
     margin-bottom:1rem;
     margin-left:auto;
     margin-right:auto;
+    padding-top:0;
+    padding-bottom:0;
+    padding-left:1;
+    padding-right:1;
+    text-alignment:left;
+    width:90%;
+}
 /* Image & Figure */
 
 
