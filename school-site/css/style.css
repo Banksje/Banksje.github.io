@@ -106,15 +106,34 @@ h1 {
     margin: 1.125rem;
 }
 
-h2 {}
+h2 {
+    font-family: "Josefinslab" Arial, Helvetica, sans-serif;
+    letter-spacing: .125rem;
+    font-size: 1.5rem;
 
-h2 + p {}
 
-p {}
+}
 
-li {}
+h2 + p {
+    text-indent: 1.5rem;
+}
 
-figcaption {}
+p {
+    font-size: .75rem;
+    letter-spacing: .031rem;
+    word-spacing: .125rem;
+}
+
+li {
+    font-size: .75rem;
+    letter-spacing: .031rem;
+    word-spacing: .125rem;
+}
+
+figcaption {
+    font-size: .75rem;
+    margin-bottom: 2rem;
+}
 
 
 
