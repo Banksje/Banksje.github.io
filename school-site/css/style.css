@@ -78,27 +78,50 @@ header, footer {
 
 
 /* Imported Typfaces */
-
-
+@font-face {
+    font-family: ;
+}
+@font-face {}
 
 
 
 /* Typography Styles */
+html {}
 
+h1 {}
 
+h2 {}
+
+h2 + p {}
+
+p {}
+
+li {}
+
+figcaption {}
 
 
 
 
 /* Link Styling */
+a {}
 
+a:link,
+a:visited {}
+
+a:focus,
+a:hover {}
 
 
 
 
 
 /* List Styling */
+ul {}
 
+ol {}
+
+.long-list a:hover {}
 
 
 
@@ -107,24 +130,29 @@ header, footer {
 /* Navigation Menu */
 nav {
     padding-left: 0;
-    margin-top: 4px;
+    margin-top: .25rem;
     display: inline-block;
     width: 100;
     line-height: 3;
     text-align: center;
-    font-size: 18px;
-    margin-bottom: 24px;
+    font-size: 1.125rem;
+    margin-bottom: 1.5rem;
     border: solid;
     border-color: #33658A;
-    border-width: 1px;
+    border-width: 0.063rem;
 }
 
+nav a {}
 
+nav a:focus,
+nav a:hover {}
+
+nav a:active {}
 
 
 
 /* Footer Styles */
-
+footer {}
 
 
 
